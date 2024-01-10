@@ -29,4 +29,4 @@ Once the ChatBot is running, start typing your questions or engage in casual con
 ## Contributing
 If you would like to contribute to this project, feel free to open issues, submit pull requests, or provide feedback. Your input is highly valued!
 
-<img width="960" alt="image" src="https://github.com/codingsneha/Conversational-ChatBot-Gemini/assets/79274516/fcf4b517-930d-4003-b253-1279bae1e74a">
+<img width="960" alt="image" src="https://github.com/codingsneha/Conversational-ChatBot-Gemini/assets/79274516/9b563e39-4b7a-471f-83dd-d4da65d43af0">
