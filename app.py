@@ -20,8 +20,6 @@ def to_markdown(text):
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-## Function to load OpenAI model and get respones
-
 def get_gemini_response(question):
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content(question)
@@ -41,7 +39,6 @@ submit=st.button("Ask the question")
 ## If ask button is clicked
 
 if submit:
-    
     response=get_gemini_response(input)
     st.subheader("The Response is")
     st.write(response)
