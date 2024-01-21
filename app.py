@@ -1,6 +1,3 @@
-# Q&A Chatbot
-#from langchain.llms import OpenAI
-
 from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
@@ -12,7 +9,6 @@ import textwrap
 
 import google.generativeai as genai
 
-from IPython.display import display
 from IPython.display import Markdown
 
 
@@ -34,7 +30,7 @@ def get_gemini_response(question):
 
 st.set_page_config(page_title="Q&A Demo")
 
-st.header("Gemini Application")
+st.header("Gemini ChatBot")
 
 input=st.text_input("Input: ",key="input")
 
